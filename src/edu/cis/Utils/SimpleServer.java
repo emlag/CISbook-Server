@@ -93,7 +93,7 @@ public class SimpleServer extends SimpleNetworking implements HttpHandler
             //create the socket with the given port number
             ignored = new Socket("localhost", port);
             return false;
-        } catch (IOException var11)
+        } catch (IOException excp)
         {
         } finally
         {
@@ -104,7 +104,7 @@ public class SimpleServer extends SimpleNetworking implements HttpHandler
                 {
                     //close the socket when done
                     ignored.close();
-                } catch (IOException var10)
+                } catch (IOException excp)
                 {
                 }
             }
@@ -139,9 +139,9 @@ public class SimpleServer extends SimpleNetworking implements HttpHandler
                     this.server.createContext("/", this);
                     this.server.setExecutor((Executor) null);
                     this.server.start();
-                } catch (IOException var2)
+                } catch (IOException excp)
                 {
-                    throw new RuntimeException(var2);
+                    throw new RuntimeException(excp);
                 }
             }
         }
@@ -194,10 +194,10 @@ public class SimpleServer extends SimpleNetworking implements HttpHandler
                 os.write(responseStr.getBytes());
                 os.close();
             }
-        } catch (IOException var6)
+        } catch (IOException excp)
         {
-            var6.printStackTrace();
-            throw new RuntimeException(var6);
+            excp.printStackTrace();
+            throw new RuntimeException(excp);
         }
     }
 }

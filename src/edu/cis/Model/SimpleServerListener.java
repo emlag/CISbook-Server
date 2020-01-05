@@ -4,5 +4,5 @@ import edu.cis.Model.Request;
 
 public interface SimpleServerListener
 {
-    String requestMade(Request var1);
+    String requestMade(Request req);
 }

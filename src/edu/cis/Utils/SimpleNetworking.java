@@ -40,7 +40,7 @@ public class SimpleNetworking
                 ImageIO.write(imageToBufferedImage(image.getImage()), "png", baos);
                 byte[] bytes = baos.toByteArray();
                 return Base64.getUrlEncoder().encodeToString(bytes);
-            } catch (IOException var3)
+            } catch (IOException excp)
             {
                 return null;
             }
@@ -56,7 +56,7 @@ public class SimpleNetworking
                 byte[] bytes = Base64.getUrlDecoder().decode(str);
                 BufferedImage img = ImageIO.read(new ByteArrayInputStream(bytes));
                 return new GImage(img);
-            } catch (IOException var3)
+            } catch (IOException excp)
             {
                 return null;
             }

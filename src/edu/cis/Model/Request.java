@@ -47,9 +47,9 @@ public class Request
         try
         {
             return URLDecoder.decode(str, "UTF-8");
-        } catch (UnsupportedEncodingException var2)
+        } catch (UnsupportedEncodingException excp)
         {
-            throw new IllegalArgumentException(var2);
+            throw new IllegalArgumentException(excp);
         }
     }
 
@@ -64,9 +64,9 @@ public class Request
         try
         {
             return URLEncoder.encode(str, "UTF-8");
-        } catch (UnsupportedEncodingException var2)
+        } catch (UnsupportedEncodingException excp)
         {
-            throw new IllegalArgumentException(var2);
+            throw new IllegalArgumentException(excp);
         }
     }
 
@@ -189,9 +189,9 @@ public class Request
         String str = this.command + " (";
         boolean isFirst = true;
 
-        for (Iterator var4 = this.params.keySet().iterator(); var4.hasNext(); isFirst = false)
+        for (Iterator itr = this.params.keySet().iterator(); itr.hasNext(); isFirst = false)
         {
-            String p = (String) var4.next();
+            String p = (String) itr.next();
             if (!isFirst)
             {
                 str = str + ", ";
