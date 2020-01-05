@@ -1,8 +1,8 @@
 /*
- * File: FacePamphletProfile.java
+ * File: CISbookProfile.java
  * ------------------------------
  * When it is finished, this class will define a new variable type
- * that represents a single FacePamphlet profile. Remember to update this comment!
+ * that represents a single CISbookProfile. Remember to update this comment!
  */
 
 package edu.cis.Model;

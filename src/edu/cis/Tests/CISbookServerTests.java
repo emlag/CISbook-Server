@@ -1,5 +1,5 @@
 /*
- * File: FacePamphletServerTests.java
+ * File: CISbookServerTests.java
  * -----------------------
  * This program tests your server by sending a bunch of requests
  * and validating if the response is what it was expecting.
