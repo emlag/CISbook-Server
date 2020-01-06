@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89a95659-338f-4540-aeeb-083ef4170aa4" name="Default Changelist" comment="" />
+    <list default="true" id="89a95659-338f-4540-aeeb-083ef4170aa4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VYrfkbg4ATrn3xsK0T7L0o7VpS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,6 +27,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -36,13 +42,26 @@
       <recent name="$PROJECT_DIR$/src/com/company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CISbookServer">
+  <component name="RunManager" selected="Application.CISbookServerTests (1)">
     <configuration name="CISbookClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.CISbookClient" />
       <module name="CISbook" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CISbookServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.cis.Controller.CISbookServer" />
+      <module name="CISbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.cis.Controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,6 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CISbookServerTests (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.cis.Tests.CISbookServerTests" />
+      <module name="CISbook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.cis.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CISbookServerTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.CISbookServerTests" />
       <module name="CISbook" />
@@ -76,42 +108,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EdTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.EdTest" />
-      <module name="CISbook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="CISbook" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.EdTest" />
       <item itemvalue="Application.CISbookClient" />
       <item itemvalue="Application.CISbookServer" />
       <item itemvalue="Application.CISbookServerTests" />
+      <item itemvalue="Application.CISbookServer (1)" />
+      <item itemvalue="Application.CISbookServerTests (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CISbookServerTests (1)" />
+        <item itemvalue="Application.CISbookServer (1)" />
         <item itemvalue="Application.CISbookServer" />
         <item itemvalue="Application.CISbookServerTests" />
         <item itemvalue="Application.CISbookClient" />
-        <item itemvalue="Application.EdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +154,7 @@
       <workItem from="1577757025266" duration="410000" />
       <workItem from="1578189601996" duration="222000" />
       <workItem from="1578189853209" duration="5696000" />
+      <workItem from="1578271984983" duration="552000" />
     </task>
     <servers />
   </component>
@@ -151,26 +162,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="267" key="GridCell.Tab.0.bottom" timestamp="1577706920025">
-      <screen x="0" y="23" width="2048" height="1129" />
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom" timestamp="1578272581925">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1577448329011" />
     <state width="1358" height="267" key="GridCell.Tab.0.bottom/0.23.2048.1129/-4240.-113.2560.1417/-1680.494.1680.1027@0.23.2048.1129" timestamp="1577706920025" />
-    <state width="1358" height="267" key="GridCell.Tab.0.center" timestamp="1577706920024">
-      <screen x="0" y="23" width="2048" height="1129" />
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1578272581925" />
+    <state width="1878" height="289" key="GridCell.Tab.0.center" timestamp="1578272581924">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1577448329010" />
     <state width="1358" height="267" key="GridCell.Tab.0.center/0.23.2048.1129/-4240.-113.2560.1417/-1680.494.1680.1027@0.23.2048.1129" timestamp="1577706920024" />
-    <state width="1358" height="267" key="GridCell.Tab.0.left" timestamp="1577706920024">
-      <screen x="0" y="23" width="2048" height="1129" />
+    <state width="1878" height="289" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1578272581924" />
+    <state width="1878" height="289" key="GridCell.Tab.0.left" timestamp="1578272581923">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1577448329009" />
     <state width="1358" height="267" key="GridCell.Tab.0.left/0.23.2048.1129/-4240.-113.2560.1417/-1680.494.1680.1027@0.23.2048.1129" timestamp="1577706920024" />
-    <state width="1358" height="267" key="GridCell.Tab.0.right" timestamp="1577706920025">
-      <screen x="0" y="23" width="2048" height="1129" />
+    <state width="1878" height="289" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1578272581923" />
+    <state width="1878" height="289" key="GridCell.Tab.0.right" timestamp="1578272581925">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1358" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1577448329010" />
     <state width="1358" height="267" key="GridCell.Tab.0.right/0.23.2048.1129/-4240.-113.2560.1417/-1680.494.1680.1027@0.23.2048.1129" timestamp="1577706920025" />
+    <state width="1878" height="289" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@1680.23.1920.1057" timestamp="1578272581925" />
     <state width="1358" height="329" key="GridCell.Tab.1.bottom" timestamp="1577671475182">
       <screen x="0" y="23" width="2048" height="1129" />
     </state>
@@ -196,11 +211,12 @@
     </state>
     <state x="328" y="118" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1578195883609" />
     <state x="400" y="127" key="SettingsEditor/0.23.2048.1129/-4240.-113.2560.1417/-1680.494.1680.1027@0.23.2048.1129" timestamp="1577701537611" />
-    <state x="424" y="431" key="com.intellij.ide.util.TipDialog" timestamp="1578189854421">
+    <state x="424" y="431" key="com.intellij.ide.util.TipDialog" timestamp="1578271993026">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="424" y="431" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1578189854421" />
     <state x="517" y="471" key="com.intellij.ide.util.TipDialog/0.23.2048.1129/-4240.-113.2560.1417/-1680.494.1680.1027@0.23.2048.1129" timestamp="1577700937064" />
+    <state x="424" y="431" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1578271993026" />
     <state x="633" y="223" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577441283887">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
